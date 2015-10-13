@@ -1,0 +1,28 @@
+# Documentation: https://github.com/roots/trellis#wordpress-sites
+wordpress_sites:
+  thesaucerecipes.com:
+    site_hosts:
+      - thesaucerecipes.dev
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:isabisa/the-sauce-recipes.git
+    site_install: true
+    site_title: The Sauce
+    admin_user: admin
+    admin_password: thesauce4Herr2015!
+    admin_email: admin@thesaucerecipes.dev
+    multisite:
+      enabled: false
+      subdomains: false
+    ssl:
+      enabled: false
+    cache:
+      enabled: false
+      duration: 30s
+    system_cron: true
+    env:
+      wp_home: http://thesaucerecipes.dev
+      wp_siteurl: http://thesaucerecipes.dev/wp
+      wp_env: development
+      db_name: sauce_dev
+      db_user: sauce_dbuser
+      db_password: tAi^tez,Host#
