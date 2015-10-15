@@ -3,4 +3,4 @@ default_timezone: Etc/UTC
 hhvm: false
 www_root: /srv/www
 
-project_unwanted_items: ['.git', 'ansible', 'Vagrantfile']
+project_unwanted_items: ['.git', 'ansible', 'site', 'Vagrantfile']
