@@ -1,35 +1,36 @@
-# Documentation: https://github.com/roots/trellis#wordpress-sites
-wordpress_sites:
-  thesaucerecipes.com:
-    site_hosts:
-      - thesaucerecipes.com
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:isabisa/the-sauce-recipes.git
-    branch: master
-    subtree_path: site # relative path to your Bedrock/WP directory in your repo (above) if it is not the root (like the roots-example-project structure)
-    multisite:
-      enabled: false
-      subdomains: false
-    ssl:
-      enabled: false
-    cache:
-      enabled: false
-      duration: 30s
-    system_cron: true
-    env:
-      wp_home: http://thesaucerecipes.com
-      wp_siteurl: http://thesaucerecipes.com/wp
-      wp_env: production
-      db_name: sauce_prod
-      db_user: sauce_dbuser
-      db_password: qued/Berm@ev.nEk,
-      # Generate your keys here: https://api.wordpress.org/secret-key/1.1/salt/
-      # These CANNOT contain the characters "{%" in succession
-      auth_key: "2/Gag00-cXSK;Zwmu)tZI$G_.*yMIylZOH+{Q)_f<G`y66O1@-I<dNx]7O]^Y5/)"
-      secure_auth_key: "n4j)JgBshmTag>nG-y[R+0rK8b#;~zuhdLs;|hfVI8{1/;2t<w@pNrP!kEcY=/d!"
-      logged_in_key: "7BP_gk5D:LJV98`xnT=su9w2DqJ mAwA{qy[l8S6?8n6yY.bh}*)jB{|Aa1Bz5XC"
-      nonce_key: "iy|+W62>W3&%$]wPuEgEKeQv,]?g&?@}lk1Cro#nLX|:$^prROc!-ra4t;siU&*&"
-      auth_salt: "Pg!&q.H4Irz>^WmlR=NMxye5QQ;]1~{Ew&Xd}mF58&f$_(I|K*fj`}53rcZ+2+*:"
-      secure_auth_salt: "$oT{-{OQa,4wp1x<FCl&S,IM0U_zn/]q$7DI:)VDf[b$%xM~e=c9bvCQCu.#*evi"
-      logged_in_salt: "_G3&]B+ymg}6vn54cLixyZ8iaz2g73:-a>YP(xnyk)I?o#&T;(7b,&@u~!*FT~/7"
-      nonce_salt: "2Z0: d(2j$ovM%T#L3{i*Kp;-_pjAyCau(DDvC;s#c(&h^qRr/EW-clYm*G-F,|I"
+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
