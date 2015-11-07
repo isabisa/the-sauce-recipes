@@ -1,0 +1,413 @@
+/*
+Theme Name: Confit
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+/* =Reset
+-------------------------------------------------------------- */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption, th, td {
+	text-align: right;
+}
+
+
+/* =Repeatable patterns
+----------------------------------------------- */
+
+/* Text elements */
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+
+/* =Structure
+----------------------------------------------- */
+
+/* Page structure */
+#wrapper {
+	float: right;
+	margin-left: 10px;
+	margin-left: 1.0rem;
+	margin-right: auto;
+	width: 100%;
+}
+#page:before {
+	right: 0;
+	left: auto;
+}
+#masthead {
+	float: right;
+}
+#primary {
+	float: left;
+	margin: 120px 10px 0 0;
+	margin: 12rem 1rem 0 0;
+}
+#secondary {
+	clear: right;
+	float: right;
+}
+.site-footer {
+	margin: 0 35.22012578% 0 0;
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation {
+	float: right;
+}
+.main-navigation ul ul {
+	right: 100%;
+	left: auto;
+}
+.main-navigation ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+/* Small menu */
+.main-small-navigation ul ul {
+	margin: 0 4.85436893% 0 0;
+}
+
+
+/* =Content
+----------------------------------------------- */
+
+.entry-title {
+	border-right: 5px solid #e94f1d;
+	padding: 0 4.04530744% 0 4.85436893%;
+	border-left: none;
+}
+.entry-content li,
+.comment-content li {
+	margin: 0 36px 0 0;
+	margin: 0 3.6rem 0 0;
+}
+img.alignright {
+	margin: 7px 0 7px 24px;
+	margin: 0.7rem 0 0.7rem 2.4rem;
+}
+img.alignleft {
+	margin: 7px 24px 7px 0;
+	margin: 0.7rem 2.4rem 0.7rem 0;
+}
+.entry-content td,
+.comment-content td {
+	padding: 8px 0 8px 10px;
+	padding: 0.8rem 0 0.8rem 1rem;
+}
+.entry-content blockquote p {
+	border-right: 5px solid #E94F1D;
+	border-left: none;
+	padding-right: 24px;
+	padding-left: 0;
+}
+
+
+/* =Menu Item
+------------------------------------------------*/
+
+.page-template-page-menu-php .menu-items .menu-thumbnail {
+	float: right;
+	margin: 0 0 5px 30px;
+}
+.page-template-page-menu-php .menu-items .entry-title {
+	padding: 0 0 0 54px;
+}
+.page-template-page-menu-php .menu-items .menu-price {
+	left: 0;
+	text-align: left;
+	right: auto;
+}
+.menu-labels span {
+	margin: 7px 0 0 5px;
+}
+.pdf-menu {
+	left: -44px;
+	right: auto;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+.site-content .nav-previous {
+	float: right;
+	padding: 24px 4.85436893% 24px 0;
+	padding: 2.4rem 4.85436893% 2.4rem 0;
+}
+.site-content .nav-next {
+	float: left;
+	padding: 24px 0 24px 4.85436893%;
+	padding: 2.4rem 0 2.4rem 4.85436893%;
+	text-align: left;
+}
+.previous-image,
+.next-image {
+	float: right;
+}
+.next-image {
+	float: left;
+	text-align: left;
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+.comment-author {
+	padding-right: 67px;
+	padding-left: 0;
+}
+.comment-author span {
+	right: 0;
+	left: auto;
+}
+.comment-author .avatar {
+	right: 2px;
+	left: auto;
+}
+.comment-meta {
+	left: 0;
+	text-align: left;
+	right: auto;
+}
+.comment-content {
+	padding-right: 67px;
+	padding-left: 0;
+}
+.commentlist .children {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget ul ul,
+.widget ol ol,
+.widget ul ol,
+.widget ol ul {
+	margin: 0 13px 0 0;
+	margin: 0 1.3rem 0 0;
+}
+.widget select {
+	margin-right: 1px;
+	margin-right: 0.1rem;
+	margin-left: auto;
+}
+
+/* Authors Widget */
+.widget_authors img {
+	float: right;
+	margin: 8px 0 0 5px;
+	margin: 0.8rem 0 0 0.5rem;
+}
+
+/* Caledar widget*/
+.widget_calendar #wp-calendar caption {
+	text-align: right;
+}
+
+.widget_calendar #wp-calendar tfoot td#prev {
+	padding: 3px 5px 3px 0;
+	padding: 0.3rem 0.5rem 0.3rem 0;
+}
+
+.widget_calendar #wp-calendar tfoot td#next {
+	border-left: 1px solid rgba(0, 0, 0, 0.04);
+	padding: 3px 0 3px 5px;
+	padding: 0.3rem 0 0.3rem 0.5rem;
+	border-right: none;
+}
+
+
+/* =404 Page
+----------------------------------------------- */
+
+#content .error404 .widget {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+/* =Mobile
+-------------------------------------------------------------- */
+
+#mobile-background-holder {
+	right: 0;
+	left: auto;
+}
+
+/* =Infinite Scroll
+-------------------------------------------------------------- */
+/* Elements to hide */
+
+/* Load more posts button */
+
+/* Loader */
+
+/* Hooks to infinity-end body class to restore footer */
+
+/* Position Infinite Scroll footer */
+#infinite-footer .container {
+	margin: 0 336px 0 0;
+	margin: 0 33.6rem 0 0;
+}
+
+/* =Jetpack Testimonials
+-------------------------------------------------------------- */
+.jetpack-testimonial .entry-header {
+	float: right;
+	margin-right: 4.85436893%;
+	margin-left: 0;
+}
+
+.testimonial-thumbnail {
+	right: auto;
+	left: 4.85436893%;
+}
+
+.jetpack-testimonial footer.entry-meta {
+	float: right;
+	margin-right: 12px;
+	margin-left: 0;
+}
+
+/* =Responsive
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 964px) {
+	#infinite-footer .container {
+		margin-right: 34.85477178%;
+		margin-left: auto;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	#page::before,
+	#masthead,
+	#secondary {
+		width: 33.57142857%
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#wrapper {
+		float: none;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	#page::before {
+		background-color: transparent;
+		min-height: auto;
+		position: relative;
+			top: auto;
+			right: auto;
+			left: auto;
+		width: auto;
+	}
+	#masthead {
+		background-color: rgba(255,255,255,0.95);
+		border-radius: 0 0 3px 3px;
+		float: none;
+		margin: 0 auto 48px;
+		margin: 0 auto 4.8rem;
+		padding-bottom: 24px;
+		padding-bottom: 2.4rem;
+		width: 618px;
+	}
+	#masthead hgroup{
+		margin: 0 4.85436893% 24px;
+		margin: 0 4.85436893% 2.4rem;
+	}
+	.main-navigation {
+		float: none;
+		margin: 0 4.85436893%;
+		width: auto;
+	}
+	.main-small-navigation {
+		border: 1px solid rgba(0,0,0,0.2);
+		border-right: none;
+		border-left: none;
+		margin: 0 4.85436893%;
+	}
+	.menu-toggle {
+		padding: 10px 0;
+		padding: 1.0rem 0;
+	}
+	#primary,
+	#secondary {
+		float: none;
+		width: 618px;
+		margin: 0 auto;
+	}
+	#secondary {
+		background-color: rgba(255,255,255,0.95);
+		border-radius: 3px;
+	}
+	.widget {
+		margin: 0 4.85436893% 24px;
+		margin: 0 4.85436893% 2.4rem;
+	}
+	#secondary .widget:first-child {
+		margin-top: 24px;
+		margin-top: 2.4rem;
+	}
+	.site-footer {
+		margin: 24px auto 0;
+		margin: 2.4rem auto 0;
+		width: 618px;
+	}
+	#infinite-footer .container {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 618px) {
+	#masthead,
+	#primary,
+	#secondary,
+	.site-footer {
+		width: 100%;
+	}
+	#masthead,
+	.site-content article,
+	.site-content .site-navigation,
+	#secondary,
+	.site-footer {
+		border-radius: 0;
+	}
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.entry-title {
+		font-size: 24px;
+		font-size: 2.4rem;
+		line-height: 1;
+	}
+	embed,
+	iframe,
+	object {
+		height: auto;
+	}
+}
+/* Generated by the RTLer - http://wordpress.org/plugins/rtler/ */
