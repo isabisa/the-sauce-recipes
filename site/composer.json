@@ -45,7 +45,8 @@
     "wpackagist-plugin/admin-menu-editor": "^1.5",
     "wpackagist-plugin/wp-migrate-db": "^0.7.2",
     "wpackagist-plugin/disqus-comment-system": "^2.84",
-    "wpackagist-plugin/disqus-notify-content-author": "^1.2"
+    "wpackagist-plugin/disqus-notify-content-author": "^1.2",
+    "wpackagist-plugin/debug-bar": "^0.8.2"
   },
   "extra": {
     "installer-paths": {
