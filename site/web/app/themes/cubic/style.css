@@ -122,6 +122,23 @@ a,
 	color: #B03E55;
 }
 
+.wpurp-container {
+	background: #efefef !important;
+	border: none !important;
+	max-width: 100% !important;
+	margin: 0 !important;
+}
+.wpurp-container a {
+	color: #B03E55 !important;
+}
+.wpurp-container a.wpurp-recipe-print-button {
+	color: #444444;
+}
+
+.buffercode_author_list_info a.tooltip:hover span {
+	background: #ffffff;
+}
+
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
@@ -289,6 +306,10 @@ h6 a {
 	background: #ffffff;
 }
 
+.single .entry-footer,
+.single .site-footer {
+	display: none;
+}
 
 /*--------------------------------------------------------------
 6.0 Jetpack

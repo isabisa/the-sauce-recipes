@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4eae204d69189897dc95ef9ae55323c0",
-    "content-hash": "0e6848a6a47645021f33199e5b02945c",
+    "hash": "dbf0764df3200b341c9167ee8872c83f",
+    "content-hash": "94ee1a6876fe217f204c1be913541f1a",
     "packages": [
         {
             "name": "composer/installers",
@@ -324,6 +324,26 @@
             "homepage": "https://wordpress.org/plugins/author-list/"
         },
         {
+            "name": "wpackagist-plugin/author-profiles",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/author-profiles/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/author-profiles.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/author-profiles/"
+        },
+        {
             "name": "wpackagist-plugin/custom-taxonomies-menu-widget",
             "version": "1.4",
             "source": {
@@ -362,6 +382,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/display-authors-widget",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/display-authors-widget/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/display-authors-widget.1.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/display-authors-widget/"
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
