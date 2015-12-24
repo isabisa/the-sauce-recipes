@@ -1,0 +1,306 @@
+# Translation of Boardwalk in Italian
+# This file is distributed under the same license as the Boardwalk package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-23 03:28:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Boardwalk\n"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Opzioni tema"
+
+#: inc/template-tags.php:177
+msgid "Archives: %s"
+msgstr "Archivi: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:181
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citazioni"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Link"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Stati"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chat"
+
+#: inc/template-tags.php:157
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Digressioni"
+
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Immagini"
+
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Video"
+
+#: inc/template-tags.php:149
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:147
+msgid "Category: %s"
+msgstr "Categoria: %s"
+
+#: sidebar.php:17
+msgid "Menu"
+msgstr "Menu"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: inc/template-tags.php:126
+msgid "% Comments"
+msgstr "% commenti"
+
+#: inc/template-tags.php:126
+msgid "1 Comment"
+msgstr "1 commento"
+
+#: inc/template-tags.php:119
+msgctxt "post author"
+msgid "By %s"
+msgstr "da %s"
+
+#: inc/template-tags.php:126
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: inc/template-tags.php:115
+msgid "Tagged %1$s"
+msgstr "Tag %1$s"
+
+#: inc/template-tags.php:109
+msgid "Posted in %1$s"
+msgstr "Inviato su %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:107 inc/template-tags.php:113
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:104
+msgid "All %s posts"
+msgstr "Tutti %s i posti"
+
+#: inc/template-tags.php:86
+msgid "Featured"
+msgstr "In evidenza"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Navigazione articolo"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articoli più recenti <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articoli più vecchi"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Navigazione articoli"
+
+#: inc/extras.php:107
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Source Code Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:153
+msgctxt "Source Code Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:119
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Lato, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:114
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "acceso"
+
+#: functions.php:92
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: functions.php:56
+msgid "Social Menu"
+msgstr "Menu Social"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: footer.php:31
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s di %2$s."
+
+#: footer.php:29
+msgid "Proudly powered by %s"
+msgstr "Funziona grazie a %s"
+
+#: footer.php:29
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:28
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua a leggere <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:32 inc/template-tags.php:130
+msgid "Edit"
+msgstr "Modifica"
+
+#: content-page.php:26 content-single.php:29
+msgid "Page"
+msgstr "Pagina"
+
+#: content-page.php:22 content-single.php:25
+msgid "Pages:"
+msgstr "Pagine: "
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Non riusciamo a trovare quello che cerchi. Forse eseguire una ricerca potrebbe essere di aiuto."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Spiacente, nulla corrisponde i termini della tua ricerca. Riprova con parole chiave diverse."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sei pronto a pubblicare il tuo primo articolo? <a href=\"%1$s\">Comincia da qui</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr "Commenti più recenti &rarr;"
+
+#: comments.php:49
+msgid "&larr; Older Comments"
+msgstr "&larr; Commenti meno recenti"
+
+#: comments.php:48
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensiero su &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensieri su &ldquo;%2$s&rdquo;"
+
+#: author-bio.php:27
+msgid "View all posts by %s"
+msgstr "Vedi tutti gli articoli di %s"
+
+#: inc/template-tags.php:183
+msgid "Archives"
+msgstr "Archivi"
+
+#: inc/template-tags.php:153
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:153
+msgid "Year: %s"
+msgstr "Anno: %s"
+
+#: inc/template-tags.php:155
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:155
+msgid "Month: %s"
+msgstr "Mese: %s"
+
+#: inc/template-tags.php:157
+msgid "Day: %s"
+msgstr "Giorno: %s"
+
+#: inc/template-tags.php:151
+msgid "Author: %s"
+msgstr "Autore: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provare a consultare gli archivi mensili. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Categorie più utilizzate"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sembra che non ci sia nulla a questo indirizzo. Perché non provi con uno dei link in basso o una ricerca?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Impossibile trovare la pagina."

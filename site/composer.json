@@ -36,7 +36,16 @@
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.3.1"
+    "johnpbloch/wordpress": "4.4",
+    "wpackagist-plugin/wp-ultimate-recipe": "2.6.1",
+    "roots/soil": "^3.6",
+    "wpackagist-plugin/custom-taxonomies-menu-widget": "^1.4",
+    "wpackagist-plugin/wp-facebook-login": "^1.0.10",
+    "wpackagist-plugin/author-list": "^2.2.1",
+    "wpackagist-plugin/admin-menu-editor": "^1.5",
+    "wpackagist-plugin/wp-migrate-db": "^0.7.2",
+    "wpackagist-plugin/disqus-comment-system": "^2.84",
+    "wpackagist-plugin/disqus-notify-content-author": "^1.2"
   },
   "extra": {
     "installer-paths": {

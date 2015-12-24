@@ -1,0 +1,345 @@
+# Translation of Boardwalk in Esperanto
+# This file is distributed under the same license as the Boardwalk package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-23 03:28:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Boardwalk\n"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Etosaj opcioj"
+
+#: inc/template-tags.php:177
+msgid "Archives: %s"
+msgstr "Arkivoj: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:181
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citaĵoj"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Ligiloj"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statoj"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Aŭdaĵoj"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Babiloj"
+
+#: inc/template-tags.php:157
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Mencioj"
+
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerioj"
+
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bildoj"
+
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videoj"
+
+#: inc/template-tags.php:149
+msgid "Tag: %s"
+msgstr "Etikedo: %s"
+
+#: inc/customizer.php:41
+msgid "Show author bio on single posts."
+msgstr "Montru la aŭtoran biografion ĉe unuopaj afiŝoj."
+
+#: inc/customizer.php:53
+msgid "Keep title with content on single posts and pages."
+msgstr "Lasu la titolon kun enhavo ĉe unuopaj afiŝoj kaj paĝoj."
+
+#: inc/customizer.php:65
+msgid "Unfixed header when scrolling down."
+msgstr "Nefiksita kapo dum rulumado suben."
+
+#: inc/template-tags.php:147
+msgid "Category: %s"
+msgstr "Kategorio: %s"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/boardwalk/style.css
+msgid "A minimalistic theme with horizontal scrolling."
+msgstr "Minimumisma etoso kun horizontala rulumado."
+
+#: sidebar.php:17
+msgid "Menu"
+msgstr "Menuo"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Serĉrezultoj por: %s"
+
+#: inc/template-tags.php:126
+msgid "% Comments"
+msgstr "% Komentoj"
+
+#: inc/template-tags.php:126
+msgid "1 Comment"
+msgstr "1 komento"
+
+#: inc/template-tags.php:119
+msgctxt "post author"
+msgid "By %s"
+msgstr "de %s"
+
+#: inc/template-tags.php:126
+msgid "Leave a comment"
+msgstr "Komenti"
+
+#: inc/template-tags.php:115
+msgid "Tagged %1$s"
+msgstr "Etikedita per %1$s"
+
+#: inc/template-tags.php:109
+msgid "Posted in %1$s"
+msgstr "Afiŝita en %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:107 inc/template-tags.php:113
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:104
+msgid "All %s posts"
+msgstr "Ĉiuj %s-afiŝoj"
+
+#: inc/template-tags.php:56
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:57
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:86
+msgid "Featured"
+msgstr "Elstarigita"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Navigado tra afiŝoj"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pli novaj afiŝoj <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Pli malnovaj afiŝoj"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Navigado tra afiŝoj"
+
+#: inc/customizer.php:30
+msgid "Add a dark filter to featured images"
+msgstr "Aldonu malhelan filtron al elstarigitaj bildoj"
+
+#: inc/extras.php:107
+msgid "Page %s"
+msgstr "Paĝo %s"
+
+#: header.php:33
+msgid "Toggle Sidebar"
+msgstr "Baskuligi flankpanelon"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Source Code Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:153
+msgctxt "Source Code Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Iri rekte al enhavo"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:119
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "off"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Lato, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:114
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:92
+msgid "Sidebar"
+msgstr "Flankpanelo"
+
+#: functions.php:56
+msgid "Social Menu"
+msgstr "Socia menuo"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Ĉefa menuo"
+
+#: footer.php:31
+msgid "Theme: %1$s by %2$s."
+msgstr "Etoso: %1$s de %2$s. "
+
+#: footer.php:29
+msgid "Proudly powered by %s"
+msgstr "Fiere kreata de %s"
+
+#: footer.php:29
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:28
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Legi plu <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:32 inc/template-tags.php:130
+msgid "Edit"
+msgstr "Redakti"
+
+#: content-page.php:26 content-single.php:29
+msgid "Page"
+msgstr "Paĝo"
+
+#: content-page.php:22 content-single.php:25
+msgid "Pages:"
+msgstr "Paĝoj:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Ŝajnas, ke ni ne povas trovi tion. Eble serĉo helpos."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bedaŭrinde, nenio kongruis kun viaj serĉaj kriterioj. Bonvolu provi denove, uzante malsamajn vortojn."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ĉu preta por publikigi vian unuan afiŝon? <a href=\"%1$s\">Eku ĉi tie</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nenio estis trovita"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Komentado estas fermita."
+
+#: comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr "Pli novaj komentoj &rarr;"
+
+#: comments.php:49
+msgid "&larr; Older Comments"
+msgstr "&larr; Pli malnovaj komentoj"
+
+#: comments.php:48
+msgid "Comment navigation"
+msgstr "Navigado tra komentoj"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Unu penso pri &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensoj pri &ldquo;%2$s&rdquo;"
+
+#: author-bio.php:10
+msgid "Published by %s"
+msgstr "Publikita de %s"
+
+#: author-bio.php:27
+msgid "View all posts by %s"
+msgstr "Vidu ĉiujn afiŝojn de %s"
+
+#: inc/template-tags.php:183
+msgid "Archives"
+msgstr "Arkivoj"
+
+#: inc/template-tags.php:153
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:153
+msgid "Year: %s"
+msgstr "Jaro: %s"
+
+#: inc/template-tags.php:155
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:155
+msgid "Month: %s"
+msgstr "Monato: %s"
+
+#: inc/template-tags.php:157
+msgid "Day: %s"
+msgstr "Tago: %s"
+
+#: inc/template-tags.php:151
+msgid "Author: %s"
+msgstr "Aŭtoro: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provu rigardi en la monataj arkivoj: %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Plej uzataj kategorioj"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Aspektas kvazaŭ nenio estis trovita ĉe ĉi tiu loko. Ĉu eble provi unu de la subaj ligiloj aŭ serĉon?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ne eblas trovi tiun paĝon."

@@ -1,0 +1,311 @@
+# Translation of Boardwalk in Azerbaijani
+# This file is distributed under the same license as the Boardwalk package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-23 03:28:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Boardwalk\n"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Mövzu Parametrləri"
+
+#: inc/template-tags.php:177
+msgid "Archives: %s"
+msgstr "Arxivlər: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:181
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Kvota"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Bağlantı"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Status"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Canlı Söhbət"
+
+#: inc/template-tags.php:157
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Yan sütun"
+
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Qalereya"
+
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Təsvir"
+
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Video"
+
+#: inc/template-tags.php:149
+msgid "Tag: %s"
+msgstr "Etiket: %s"
+
+#: inc/template-tags.php:147
+msgid "Category: %s"
+msgstr "Kateqoriya: %s"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/boardwalk/style.css
+msgid "A minimalistic theme with horizontal scrolling."
+msgstr "Üfüqi sürüşdürməli minimalistik bir mövzu."
+
+#: sidebar.php:17
+msgid "Menu"
+msgstr "Menyu"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr " %s üçün Axtarışın Nəticələri:"
+
+#: inc/template-tags.php:126
+msgid "% Comments"
+msgstr "% Şərh"
+
+#: inc/template-tags.php:126
+msgid "1 Comment"
+msgstr "1 Şərh"
+
+#: inc/template-tags.php:119
+msgctxt "post author"
+msgid "By %s"
+msgstr "%s tərəfindən"
+
+#: inc/template-tags.php:126
+msgid "Leave a comment"
+msgstr "Bir şərh yazın"
+
+#: inc/template-tags.php:115
+msgid "Tagged %1$s"
+msgstr "%1$s Etiketləndi"
+
+#: inc/template-tags.php:109
+msgid "Posted in %1$s"
+msgstr "%1$s içində dərc edildi"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:107 inc/template-tags.php:113
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:104
+msgid "All %s posts"
+msgstr "bütün %s  yazıları"
+
+#: inc/template-tags.php:86
+msgid "Featured"
+msgstr "Xüsusi"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Yazı naviqasiyası"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Yeni yazılar <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Əski yazılar"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Yazı naviqasiyası"
+
+#: inc/extras.php:107
+msgid "Page %s"
+msgstr "Səhifə %s"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Source Code Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:153
+msgctxt "Source Code Pro font: on or off"
+msgid "on"
+msgstr "açıq"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Mühtəviyyata keç"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:119
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "açıq"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Lato, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:114
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:92
+msgid "Sidebar"
+msgstr "Yan menyu"
+
+#: functions.php:56
+msgid "Social Menu"
+msgstr "Sosial menyu"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Əsas menyu"
+
+#: footer.php:31
+msgid "Theme: %1$s by %2$s."
+msgstr "Mövzu: %1$s tərəfindən %2$s."
+
+#: footer.php:29
+msgid "Proudly powered by %s"
+msgstr "%s qürurla təqdim edər"
+
+#: footer.php:29
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:28
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Oxumağa davam et <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:32 inc/template-tags.php:130
+msgid "Edit"
+msgstr "Redaktə et"
+
+#: content-page.php:26 content-single.php:29
+msgid "Page"
+msgstr "Səhifə"
+
+#: content-page.php:22 content-single.php:25
+msgid "Pages:"
+msgstr "Səhifələr:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Axtardığınız səhifə tapılmadı. Bəlkə axtarış qutusu axtardığınızı tapmaqda sizə kömək edər."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bağışlayın, axtarış kriteriyalarınıza uyğun heç bir şey tapılmadı. Bəzi fərqli açar kəlmələrdən istifadə edərək təkrar yoxlayın."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "İlk yazınızı dərc etməyə hazırsınızmı? <a href=\"%1$s\">Buradan başlayın</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Tapılmadı"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Şərh üçün bağlıdır."
+
+#: comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr "Yeni şərhlər &rarr;"
+
+#: comments.php:49
+msgid "&larr; Older Comments"
+msgstr "&larr; Əski şərhlər"
+
+#: comments.php:48
+msgid "Comment navigation"
+msgstr "Şərh naviqasiyası"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; üzərinə bir şərh"
+msgstr[1] "&ldquo;%2$s&rdquo; üzərinə %1$s şərh"
+
+#: author-bio.php:27
+msgid "View all posts by %s"
+msgstr "%s tərəfindən yazılmış bütün yazılara bax"
+
+#: inc/template-tags.php:183
+msgid "Archives"
+msgstr "Arxivlər"
+
+#: inc/template-tags.php:153
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:153
+msgid "Year: %s"
+msgstr "İl: %s"
+
+#: inc/template-tags.php:155
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:155
+msgid "Month: %s"
+msgstr "Ay: %s"
+
+#: inc/template-tags.php:157
+msgid "Day: %s"
+msgstr "Gün: %s"
+
+#: inc/template-tags.php:151
+msgid "Author: %s"
+msgstr "Müəllif: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Aylıq arxivlərə baxmağı yoxlayın. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Ən sıx istifadə edilən kateqoriyalar"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Burada heç bir şeyin tapılmadığı görünür. Bəlkə aşağıdakı bağlantılardan birini yoxlayasan və ya bir axtarış edəsən?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Bağışlayın! Bu səhifə tapılmır."

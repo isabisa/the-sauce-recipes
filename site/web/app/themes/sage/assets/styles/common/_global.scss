@@ -1,1 +1,15 @@
+html {
+  min-height: 100%;
+}
 
+body {
+  background-image: url('../images/kitchen.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.wrap {
+  background: $white70;
+}
