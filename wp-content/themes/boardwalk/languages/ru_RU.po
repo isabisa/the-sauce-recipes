@@ -1,0 +1,346 @@
+# Translation of Boardwalk in Russian
+# This file is distributed under the same license as the Boardwalk package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-02-20 04:27:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Boardwalk\n"
+
+#: inc/template-tags.php:177
+msgid "Archives: %s"
+msgstr "Архивы: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:181
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Ссылки"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Статусы"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Аудио"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Чаты"
+
+#: inc/template-tags.php:157
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "d.m.Y"
+
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Заметки"
+
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Галереи"
+
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Изображения"
+
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Видео"
+
+#: inc/template-tags.php:149
+msgid "Tag: %s"
+msgstr "Метка: %s"
+
+#: inc/customizer.php:41
+msgid "Show author bio on single posts."
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Keep title with content on single posts and pages."
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Unfixed header when scrolling down."
+msgstr ""
+
+#: inc/template-tags.php:147
+msgid "Category: %s"
+msgstr "Рубрика: %s"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/boardwalk/style.css
+msgid "A minimalistic theme with horizontal scrolling."
+msgstr ""
+
+#: sidebar.php:17
+msgid "Menu"
+msgstr "Меню"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: inc/template-tags.php:126
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: inc/template-tags.php:126
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: inc/template-tags.php:119
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#: inc/template-tags.php:126
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: inc/template-tags.php:115
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+#: inc/template-tags.php:109
+msgid "Posted in %1$s"
+msgstr "Рубрика: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:107 inc/template-tags.php:113
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:104
+msgid "All %s posts"
+msgstr "Все записи: %s"
+
+#: inc/template-tags.php:56
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:57
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:86
+msgid "Featured"
+msgstr "Избранное"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Навигация по записям"
+
+#: inc/customizer.php:30
+msgid "Add a dark filter to featured images"
+msgstr ""
+
+#: inc/extras.php:103
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: header.php:33
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Theme"
+msgstr "Тема"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Source Code Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:146
+msgctxt "Source Code Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:112
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. * by Lato, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:107
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:85
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:56
+msgid "Social Menu"
+msgstr "Меню социальных сетей"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: footer.php:31
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s, автор: %2$s."
+
+#: footer.php:29
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
+#: footer.php:29
+msgid "http://wordpress.org/"
+msgstr "http://ru.wordpress.org/"
+
+#: content.php:23
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:32 inc/template-tags.php:130
+msgid "Edit"
+msgstr "Изменить"
+
+#: content-page.php:26 content-single.php:29
+msgid "Page"
+msgstr "страница"
+
+#: content-page.php:22 content-single.php:25
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:49
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:48
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: Один комментарий"
+msgstr[1] "%2$s: %1$s комментария"
+msgstr[2] "%2$s: %1$s комментариев"
+
+#: author-bio.php:10
+msgid "Published by %s"
+msgstr ""
+
+#: author-bio.php:27
+msgid "View all posts by %s"
+msgstr "Посмотреть все записи автора %s"
+
+#: inc/template-tags.php:183
+msgid "Archives"
+msgstr "Архивы"
+
+#: inc/template-tags.php:153
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:153
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: inc/template-tags.php:155
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:155
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: inc/template-tags.php:157
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: inc/template-tags.php:151
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Попробуйте поискать в ежемесячных архивах. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Самые используемые рубрики"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "По этому адресу ничего не найдено. Воспользуйтесь одной из следующих ссылок или поиском."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка. Страница не найдена."

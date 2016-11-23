@@ -1,0 +1,98 @@
+# Copyright (C) 2014 Display Authors Widget
+# This file is distributed under the same license as the Display Authors Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Display Authors Widget 0.1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/display-authors-widget\n"
+"POT-Creation-Date: 2014-04-16 19:35:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: display-authors-widget.php:44
+msgid "Displays authors by role."
+msgstr ""
+
+#: display-authors-widget.php:57
+msgctxt "Name of the widget in widget area."
+msgid "Display Authors Widget"
+msgstr ""
+
+#: display-authors-widget.php:134
+msgid "(%d)"
+msgstr ""
+
+#: display-authors-widget.php:189
+msgid "Authors"
+msgstr ""
+
+#: display-authors-widget.php:206
+msgid "Title:"
+msgstr ""
+
+#: display-authors-widget.php:211
+msgid "Role:"
+msgstr ""
+
+#: display-authors-widget.php:221
+msgid "Display Post Count?"
+msgstr ""
+
+#: display-authors-widget.php:226
+msgid "Display Author Bio?"
+msgstr ""
+
+#: display-authors-widget.php:231
+msgid "Display Author Gravatar?"
+msgstr ""
+
+#: display-authors-widget.php:236
+msgid "Display Author Name?"
+msgstr ""
+
+#: display-authors-widget.php:240
+msgid "Gravatar Size:"
+msgstr ""
+
+#: display-authors-widget.php:245
+msgid "Gravatar Alignment:"
+msgstr ""
+
+#: display-authors-widget.php:247
+msgid "None"
+msgstr ""
+
+#: display-authors-widget.php:247
+msgid "Left"
+msgstr ""
+
+#: display-authors-widget.php:247
+msgid "Right"
+msgstr ""
+
+#: display-authors-widget.php:255
+msgid "Limit the number of authors displayed:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Display Authors Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://foxnet-themes.fi/downloads/display-authors-widget/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Register widget to display authors by role in a sidebar."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sami Keijonen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://foxnet.fi/en"
+msgstr ""

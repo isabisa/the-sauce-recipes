@@ -1,0 +1,23 @@
+.display-authors-widget .display-authors-widget-alignleft {
+	float: left;
+	margin: 0 1em 0.5em 0;
+}
+.display-authors-widget .display-authors-widget-alignright {
+	float: right;
+	margin: 0 0 0.5em 1em;
+}
+.display-authors-widget .display-authors-widget-alignnone {
+	float: none;
+	margin: 0.25em 0 0.5em;
+}
+.display-authors-widget .display-authors-widget-alignnone  .avatar {
+	float: none;
+}
+.display-authors-widget .avatar {
+	margin: 0;
+}
+.display-authors-widget .author-profile:after {
+content: "";
+display: table;
+clear: both;
+}
