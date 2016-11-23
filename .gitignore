@@ -6,6 +6,8 @@
 *.swp
 Thumbs.db
 
+adminer.php
+
 .htaccess
 sitemap.xml
 sitemap.xml.gz
